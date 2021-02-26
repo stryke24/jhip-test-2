@@ -45,6 +45,9 @@
     "packageFolder": "ca/stryke/jhiptest2",
     "jwtSecretKey": "MzIyNTI5MGFjN2RjODE2Y2JkNzgxYmIyZDZhMWM4NjQxZjBkMmFkNjcwNDFhNGQ3NDQ3ZjM2ZjZmNGJmMzJiODYzZDE1MmYxMTJiNWZkYTQ0NzAyZDg2N2IwZTQxZTkyZTdjM2I5NDY4ZmNhMjE0MzQ4ZjEyNWZjYTMzYWQ1ZWI=",
     "clientPackageManager": "npm",
-    "languages": ["en", "fr"]
+    "languages": ["en", "fr"],
+    "herokuAppName": "jhip-test-2",
+    "herokuDeployType": "git",
+    "herokuJavaVersion": "11"
   }
 }
