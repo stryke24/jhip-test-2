@@ -48,6 +48,18 @@ public class CacheConfiguration {
             createCache(cm, ca.stryke.jhiptest2.domain.User.class.getName());
             createCache(cm, ca.stryke.jhiptest2.domain.Authority.class.getName());
             createCache(cm, ca.stryke.jhiptest2.domain.User.class.getName() + ".authorities");
+            createCache(cm, ca.stryke.jhiptest2.domain.Region.class.getName());
+            createCache(cm, ca.stryke.jhiptest2.domain.Country.class.getName());
+            createCache(cm, ca.stryke.jhiptest2.domain.Location.class.getName());
+            createCache(cm, ca.stryke.jhiptest2.domain.Department.class.getName());
+            createCache(cm, ca.stryke.jhiptest2.domain.Department.class.getName() + ".employees");
+            createCache(cm, ca.stryke.jhiptest2.domain.Task.class.getName());
+            createCache(cm, ca.stryke.jhiptest2.domain.Task.class.getName() + ".jobs");
+            createCache(cm, ca.stryke.jhiptest2.domain.Employee.class.getName());
+            createCache(cm, ca.stryke.jhiptest2.domain.Employee.class.getName() + ".jobs");
+            createCache(cm, ca.stryke.jhiptest2.domain.Job.class.getName());
+            createCache(cm, ca.stryke.jhiptest2.domain.Job.class.getName() + ".tasks");
+            createCache(cm, ca.stryke.jhiptest2.domain.JobHistory.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
